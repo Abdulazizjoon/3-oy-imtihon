@@ -420,6 +420,11 @@
   margin-left: 31px;
   max-width: 539px;
 }
+@media screen and (max-width: 845px) {
+  .real_container, .delivery_container, .save_container {
+    display: block;
+  }
+}
 
 .save_container .real_left {
   margin-left: 28px;
