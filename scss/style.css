@@ -436,6 +436,39 @@
     max-width: 400px;
   }
 }
+@media screen and (max-width: 1100px) {
+  .real_container, .delivery_container, .save_container {
+    padding: 30px;
+  }
+  .real_container .real_left h2, .delivery_container .real_left h2, .save_container .real_left h2 {
+    font-size: 70px;
+    line-height: 75px;
+    height: 230px;
+  }
+  .real_container .real_left p, .delivery_container .real_left p, .save_container .real_left p {
+    font-size: 21px;
+  }
+  .real_container .real_right img, .delivery_container .real_right img, .save_container .real_right img {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .real_container, .delivery_container, .save_container {
+    padding: 30px;
+    gap: 0px;
+  }
+  .real_container .real_left h2, .delivery_container .real_left h2, .save_container .real_left h2 {
+    font-size: 70px;
+    line-height: 75px;
+    height: 230px;
+  }
+  .real_container .real_left p, .delivery_container .real_left p, .save_container .real_left p {
+    font-size: 21px;
+  }
+  .real_container .real_right img, .delivery_container .real_right img, .save_container .real_right img {
+    max-width: 300px;
+  }
+}
 @media screen and (max-width: 700px) {
   .real_container, .delivery_container, .save_container {
     display: block;
