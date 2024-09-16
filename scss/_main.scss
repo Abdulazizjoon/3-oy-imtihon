@@ -123,20 +123,26 @@ $peach-color:#FF7235;
                   font-size: 45px;
                   line-height: 50px;
                   text-align: center;
-                  margin-left: 50px;
+                  margin-left: 20px;
                 }
                 p{
                     margin-top: -130px;
                     text-align: center;
-                    margin-left: 100px;
+                    margin-left:30px;
                     margin-bottom: 50px;
+                }
+                button{
+                    margin-left:130px;
+                }
+                .web_text{
+                    margin-top:30px;
                 }
           }
           .main_right{
             img{
                 max-width: 300px;
                 text-align: center;
-                margin-left:150px;
+                margin-left:100px;
             }
           }
      }
@@ -146,10 +152,20 @@ $peach-color:#FF7235;
     height: 712px;
     background-repeat: no-repeat;
     background-color: #FF7235;
-    width: 100%;
+    width:100%;
     background-size: cover;
     background-image: url(../img/Blob.png);
     margin-top:211px;
+     @media screen and (max-width:1300px){
+        background-image: none;
+        background-color: #FFFFFF;
+    }
+    @media screen and (max-width:1200px) {
+        background-image: none;
+        background-color: #FFFFFF;
+        padding: 20px;
+        display: none;
+    }
 }
 .bg_container{
     img{
@@ -169,5 +185,43 @@ $peach-color:#FF7235;
         filter: sepia(100%) brightness(115%) hue-rotate(360deg) saturate(273%) contrast(90%);
         -webkit-filter: sepia(100%) brightness(115%) hue-rotate(360deg) saturate(273%) contrast(90%);
         -moz-filter: sepia(100%) brightness(115%) hue-rotate(360deg) saturate(273%) contrast(90%);
+    }
+    @media screen and (max-width:1200px) {
+        gap: 70px;
+        & :nth-child(1){
+            margin-left:40px;
+        }
+    }
+    @media screen and (max-width:1100px) {
+        gap: 50px;
+    }
+    @media screen and (max-width:1000px) {
+        gap: 30px;
+
+    }
+    @media screen and (max-width:900px) {
+        gap: 40px;
+        img{
+            max-width:100px;
+        }
+    }
+    @media screen and (max-width:800px) {
+        gap: 30px;
+        img{
+            max-width:80px;
+        }
+    }
+    @media screen and (max-width:700px) {
+        gap: 30px;
+        img{
+            max-width:70px;
+        }
+    }
+    @media screen and (max-width:600px) {
+        gap:20px;
+        img{
+            max-width:60px;
+        }
+        
     }
 }

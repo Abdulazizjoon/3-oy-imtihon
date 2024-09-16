@@ -258,18 +258,24 @@
     font-size: 45px;
     line-height: 50px;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 20px;
   }
   .main_container .main_left p {
     margin-top: -130px;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 30px;
     margin-bottom: 50px;
+  }
+  .main_container .main_left button {
+    margin-left: 130px;
+  }
+  .main_container .main_left .web_text {
+    margin-top: 30px;
   }
   .main_container .main_right img {
     max-width: 300px;
     text-align: center;
-    margin-left: 150px;
+    margin-left: 100px;
   }
 }
 
@@ -281,6 +287,20 @@
   background-size: cover;
   background-image: url(../img/Blob.png);
   margin-top: 211px;
+}
+@media screen and (max-width: 1300px) {
+  .bg {
+    background-image: none;
+    background-color: #FFFFFF;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .bg {
+    background-image: none;
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: none;
+  }
 }
 
 .bg_container img {
@@ -301,6 +321,56 @@
   filter: sepia(100%) brightness(115%) hue-rotate(360deg) saturate(273%) contrast(90%);
   -webkit-filter: sepia(100%) brightness(115%) hue-rotate(360deg) saturate(273%) contrast(90%);
   -moz-filter: sepia(100%) brightness(115%) hue-rotate(360deg) saturate(273%) contrast(90%);
+}
+@media screen and (max-width: 1200px) {
+  .logo_container {
+    gap: 70px;
+  }
+  .logo_container :nth-child(1) {
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .logo_container {
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .logo_container {
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .logo_container {
+    gap: 40px;
+  }
+  .logo_container img {
+    max-width: 100px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .logo_container {
+    gap: 30px;
+  }
+  .logo_container img {
+    max-width: 80px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .logo_container {
+    gap: 30px;
+  }
+  .logo_container img {
+    max-width: 70px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .logo_container {
+    gap: 20px;
+  }
+  .logo_container img {
+    max-width: 60px;
+  }
 }
 
 .real_container, .delivery_container, .save_container {
