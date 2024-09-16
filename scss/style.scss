@@ -1,0 +1,12 @@
+@import './font';
+@import './header';
+@import './main';
+@import './real';
+@import './pro';
+@import 'loader';
+@import './footer';
+.container{
+    max-width: 1109px;
+    width: 100%;
+    margin: 0 auto;
+}

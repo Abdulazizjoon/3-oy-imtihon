@@ -1,0 +1,130 @@
+.real_container{
+    display: flex;
+    .real_left{
+       .always{
+           max-width: 172px;
+           height: 36px;
+           font-family: 'Hind Siliguri';
+           font-size: 22px;
+           font-weight: 400;
+           line-height: 35.57px;
+           color: #BDBDBD;
+           margin-top: 142px;
+       }
+       h2{
+           max-width: 540px;
+           height: 288px;
+           font-family: 'Hind Siliguri';
+           font-size: 96px;
+           font-weight: 700;
+           line-height: 96px;
+           color: $dark-color;
+           margin-top: 24px;
+           margin-bottom: 24px;
+       }
+       .text{
+           width: 540px;
+           height: 117px;
+           font-family: 'Hind Siliguri';
+           font-size: 24px;
+           font-weight: 400;
+           line-height: 38.81px;
+           color: #BDBDBD;
+           margin-bottom: 24px;
+       }
+       a{
+           display: flex;
+           align-items: center;
+           color: $peach-color;
+           margin-bottom: 100px;
+           gap: 12px;
+           font-size: 24px;
+       }
+    }
+    .real_right{
+       margin-top: 193px;
+       margin-left: 31px;
+       max-width: 539px;
+    }
+}
+.save_container{
+   @extend .real_container;
+   .real_left{
+       margin-left:28px;
+       max-width: 540px;
+   }
+}
+.delivery_container{
+    @extend .real_container
+}
+.cards{
+    display: flex;
+    gap:170px;
+    padding: 65px;
+}
+.product_container{
+    .flex{
+        display: flex;
+        align-items: center;
+        margin-top: 157px;
+        h2{
+            max-width: 730px;
+            height: 192px;
+            font-family: 'Hind Siliguri';
+            font-size: 96px;
+            font-weight: 700;
+            line-height: 96px;
+            color: $dark-color;
+        }
+        p{
+            max-width: 350px;
+            height: 156px;
+            font-family: 'Hind Siliguri';
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 38.81px;
+            color: #BDBDBD;
+        }
+    }
+    @mixin card{
+        max-width: 350px;
+        height: 350px;  
+        text-align: center;
+        margin-top: 80px;
+    }
+    @mixin img{
+        margin-top: 63px;
+    }
+    @mixin h3{
+        font-family: 'Hind Siliguri';
+        margin-bottom: 12px;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 44px;
+    }
+    @mixin p{
+        max-width: 220px;
+        height: 46px;
+        font-family: 'Hind Siliguri';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22.64px;
+        // margin-  left: 65px;
+        color: #BDBDBD;
+    }
+    .card{
+        @include card();
+        img{
+            @include img();
+        }
+        h3{
+            @include h3();
+        }
+        p{
+            @include p();
+        }
+        
+    }
+}
