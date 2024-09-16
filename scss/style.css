@@ -420,7 +420,23 @@
   margin-left: 31px;
   max-width: 539px;
 }
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 1200px) {
+  .real_container, .delivery_container, .save_container {
+    padding: 30px;
+  }
+  .real_container .real_left h2, .delivery_container .real_left h2, .save_container .real_left h2 {
+    font-size: 80px;
+    line-height: 80px;
+    height: 230px;
+  }
+  .real_container .real_left p, .delivery_container .real_left p, .save_container .real_left p {
+    font-size: 22px;
+  }
+  .real_container .real_right img, .delivery_container .real_right img, .save_container .real_right img {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 700px) {
   .real_container, .delivery_container, .save_container {
     display: block;
   }
