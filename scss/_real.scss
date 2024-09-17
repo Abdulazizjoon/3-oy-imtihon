@@ -274,4 +274,39 @@
         }
         
     }
+    @media screen and (max-width:883px) {
+        .flex{
+            text-align: center;
+            display: block;
+           h2{
+                margin-left:50px;
+                font-size: 70px;
+                line-height:70px;
+                padding-right: 40px;
+                height:230px;
+           }
+           p{
+                max-width:600px;
+                margin-left:120px;
+                padding-right:80px;
+           }
+        }
+        .cards{
+            gap:50px;
+        }
+    }
+    @media screen and (max-width:783px){
+        .cards{
+            display: block;
+            text-align: center;
+            .card{
+                margin-top:20px;
+                height:200px;
+                p{
+                    margin-left:60px;
+                }
+            }
+
+        }
+    }
 }
