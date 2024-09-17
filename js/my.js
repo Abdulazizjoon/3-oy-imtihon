@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded',function() {
     fetch(`https://cars-pagination.onrender.com/products`)
     .catch(function(err) {
