@@ -15,6 +15,12 @@
         top: 7440px;
         // background-image: url(../img/card/Illustrator.png);
     }
+    @media screen and (max-width:1000px) {
+        max-width:1000px;
+        .ilustrator{
+            display: none;
+        }
+    }
 }
 .top_container{
     button{

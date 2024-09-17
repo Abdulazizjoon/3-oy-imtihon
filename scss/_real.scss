@@ -280,15 +280,16 @@
             display: block;
            h2{
                 margin-left:50px;
-                font-size: 70px;
+                font-size: 60px;
                 line-height:70px;
                 padding-right: 40px;
-                height:230px;
+                height:260px;
            }
            p{
                 max-width:600px;
                 margin-left:120px;
                 padding-right:80px;
+                font-size: 18px;
            }
         }
         .cards{
@@ -298,15 +299,30 @@
     @media screen and (max-width:783px){
         .cards{
             display: block;
-            text-align: center;
             .card{
                 margin-top:20px;
                 height:200px;
+                text-align: center;
+                margin-left:150px;
                 p{
-                    margin-left:60px;
+                    margin-left:50px;
                 }
             }
 
+        }
+    }
+    @media screen and (max-width:700px){
+        .cards{
+            .card{
+                margin-left: 100px;
+            }
+        }
+    }
+    @media screen and (max-width:560px){
+        .cards{
+            .card{
+                margin-left:0;
+            }
         }
     }
 }

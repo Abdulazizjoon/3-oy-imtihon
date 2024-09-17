@@ -267,7 +267,7 @@
     margin-bottom: 50px;
   }
   .main_container .main_left button {
-    margin-left: 130px;
+    margin-left: 100px;
   }
   .main_container .main_left .web_text {
     margin-top: 30px;
@@ -609,15 +609,16 @@
   }
   .product_container .flex h2 {
     margin-left: 50px;
-    font-size: 70px;
+    font-size: 60px;
     line-height: 70px;
     padding-right: 40px;
-    height: 230px;
+    height: 260px;
   }
   .product_container .flex p {
     max-width: 600px;
     margin-left: 120px;
     padding-right: 80px;
+    font-size: 18px;
   }
   .product_container .cards {
     gap: 50px;
@@ -626,14 +627,25 @@
 @media screen and (max-width: 783px) {
   .product_container .cards {
     display: block;
-    text-align: center;
   }
   .product_container .cards .card {
     margin-top: 20px;
     height: 200px;
+    text-align: center;
+    margin-left: 150px;
   }
   .product_container .cards .card p {
-    margin-left: 60px;
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .product_container .cards .card {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .product_container .cards .card {
+    margin-left: 0;
   }
 }
 
@@ -649,6 +661,23 @@
   color: #292830;
   margin-bottom: 80px;
   margin-top: 124px;
+}
+@media screen and (max-width: 700px) {
+  .pro h2 {
+    max-width: 1110px;
+    height: 82px;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 90px;
+    margin-top: 124px;
+  }
+  .pro .cardss {
+    flex-wrap: wrap;
+  }
+  .pro .cardss .cardd {
+    margin-left: 50px;
+    row-gap: 20px;
+  }
 }
 
 .pro .cardd {
@@ -762,7 +791,7 @@
   cursor: pointer;
 }
 .carusel h2 {
-  width: 920px;
+  max-width: 920px;
   height: 192px;
   font-family: "Hind Siliguri";
   font-size: 96px;
@@ -772,6 +801,13 @@
   color: #292830;
   margin-top: 121px;
   margin-bottom: 80px;
+}
+@media screen and (max-width: 700px) {
+  .carusel h2 {
+    font-size: 60px;
+    line-height: 60px;
+    height: 150px;
+  }
 }
 .carusel .user {
   display: flex;
@@ -922,6 +958,14 @@ input:nth-of-type(5):checked ~ main#carousel {
   position: absolute;
   left: 71px;
   top: 7440px;
+}
+@media screen and (max-width: 1000px) {
+  .footer_top {
+    max-width: 1000px;
+  }
+  .footer_top .ilustrator {
+    display: none;
+  }
 }
 
 .top_container button {
