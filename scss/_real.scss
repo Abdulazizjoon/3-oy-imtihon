@@ -130,11 +130,16 @@
             }
             p{
                 font-size:20px;
+                margin-top:30px;
+            }
+            a{
+                margin-top:50px;
             }
         }
         .real_right{
+            margin-left: 0;
             img{
-                max-width: 300px;
+                max-width:250px;
             }
         }
     }
@@ -142,17 +147,23 @@
         padding: 20px;
         .real_left{
             h2{
-                font-size:50px;
-                line-height:50px;
-                height:120px;
+                font-size:55px;
+                line-height:55px;
+                height:130px;
+                max-width:400px;
             }
             p{
                 font-size:20px;
+                margin-top:30px;
+                max-width: 350px;
+            }
+            a{
+                margin-top:100px;
             }
         }
         .real_right{
             img{
-                margin-left: -50px;
+                // margin-left: -50px;
                 max-width: 300px;
             }
         }
@@ -174,7 +185,7 @@
         }
         .real_right{
             img{
-                margin-left: -50px;
+                margin-left:50px;
                 max-width: 300px;
             }
         }

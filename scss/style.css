@@ -481,9 +481,16 @@
   }
   .real_container .real_left p, .delivery_container .real_left p, .save_container .real_left p {
     font-size: 20px;
+    margin-top: 30px;
+  }
+  .real_container .real_left a, .delivery_container .real_left a, .save_container .real_left a {
+    margin-top: 50px;
+  }
+  .real_container .real_right, .delivery_container .real_right, .save_container .real_right {
+    margin-left: 0;
   }
   .real_container .real_right img, .delivery_container .real_right img, .save_container .real_right img {
-    max-width: 300px;
+    max-width: 250px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -491,15 +498,20 @@
     padding: 20px;
   }
   .real_container .real_left h2, .delivery_container .real_left h2, .save_container .real_left h2 {
-    font-size: 50px;
-    line-height: 50px;
-    height: 120px;
+    font-size: 55px;
+    line-height: 55px;
+    height: 130px;
+    max-width: 400px;
   }
   .real_container .real_left p, .delivery_container .real_left p, .save_container .real_left p {
     font-size: 20px;
+    margin-top: 30px;
+    max-width: 350px;
+  }
+  .real_container .real_left a, .delivery_container .real_left a, .save_container .real_left a {
+    margin-top: 100px;
   }
   .real_container .real_right img, .delivery_container .real_right img, .save_container .real_right img {
-    margin-left: -50px;
     max-width: 300px;
   }
 }
@@ -519,7 +531,7 @@
     line-height: 20px;
   }
   .real_container .real_right img, .delivery_container .real_right img, .save_container .real_right img {
-    margin-left: -50px;
+    margin-left: 50px;
     max-width: 300px;
   }
 }
@@ -601,7 +613,6 @@
   font-weight: 700;
   line-height: 72px;
   color: #292830;
-  margin-left: 300px;
   margin-bottom: 80px;
   margin-top: 124px;
 }
